@@ -1,0 +1,4 @@
+pip install webdriver-manager
+pip install selenium
+pip install chromedriver-binary==131.0.6725.0.0
+pip install pyvirtualdisplay
