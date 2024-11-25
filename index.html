@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>競プロくん</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+    <script src='./js/main.js'></script>
+</head>
+<body>
+    <h1>競プロくん</h1>
+    <h2>問題を探す</h2>
+    <p>自分のAtCoderレーティングから探す</p>
+    <form action="cloud.html" method="POST" class="form-rating">
+        <div class="form-rating">
+            <label for="rating"></label>
+            <input type="number" inputmode="numeric" name="rating" id="rating" />
+        </div>
+        <div class="form-rating">
+            <input type="submit" value="探す" />
+        </div>
+    </form>
+    <p>または…<a href="list.html">問題リスト</a>から直接探す</p>
+    
+    <h2>このサイトの使い方</h2>
+    <ol>
+        <li>"問題を探す"から1問選ぶ</li>
+        <li>その問題を解く</li>
+        <li>結果から、サイトがあなたにオススメな次の問題を紹介</li>
+    </ol>
+
+    <hr>
+    <p>
+        2024年度「JavaScriptによるビジュアルなプログラムの開発」課題で制作
+    </p>
+    
+    <a href="development.html">開発者用ページ</a>
+</body>
+</html>
