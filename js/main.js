@@ -40,6 +40,7 @@ function setTable(data)
     tbl.appendChild(tbody);
 }
 
+/*
 var data = [
     {
         "id":"1",
@@ -63,7 +64,11 @@ var data = [
         "rating":"400"
     }
 ]
+*/
 
-window.addEventListener('load', function(){
-    setTable(data);
+window.addEventListener('load', function() {
+    fetch('./data.json')
+        .then(response => response.json())
+        .then(data => setTable(data))
+        .catch(error => console.log('Error fetching JSON: ', error));
 })
