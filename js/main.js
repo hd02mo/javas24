@@ -67,7 +67,7 @@ var data = [
 */
 
 window.addEventListener('load', function() {
-    fetch('./data.json')
+    fetch('./js/data.json')
         .then(response => response.json())
         .then(data => setTable(data))
         .catch(error => console.log('Error fetching JSON: ', error));
