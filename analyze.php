@@ -1,9 +1,3 @@
-<?php
-$qid = "";
-if (!empty($_POST["qid"])) {
-    $qid = $_POST["qid"];
-}
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,9 +6,10 @@ if (!empty($_POST["qid"])) {
     <title>問題の詳細 - 競プロくん</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
-    <script src='./js/main.js'></script>
+    <script src='./js/analyze.js' defer></script>
 </head>
 <body>
-
+    <p id="qid"><?php echo $qid; ?></p>
+    <div id="content"></div>
 </body>
 </html>
