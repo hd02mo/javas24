@@ -1,0 +1,35 @@
+[
+    {
+        "qid":1,
+        "level":"A",
+        "title":"aaaa",
+        "rating": [10,20,30,40,30,20,10],
+        "language": {
+            "c": 1,
+            "cpp":70,
+            "py":10
+        }
+    },
+    {
+        "qid":2,
+        "level":"B",
+        "title":"aaaabb",
+        "rating": [10,20,30,40,30,20,10],
+        "language": {
+            "c": 1,
+            "cpp":70,
+            "py":10
+        }
+    },
+    {
+        "qid":7000,
+        "level":"F",
+        "title":"aaassa",
+        "rating": [10,20,30,40,30,20,10],
+        "language": {
+            "c": 1,
+            "cpp":70,
+            "py":10
+        }
+    }
+]

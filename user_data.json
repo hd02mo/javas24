@@ -1,0 +1,31 @@
+[
+    {
+        "uname":1,
+        "rating":"3000",
+        "max_rating":"3200",
+        "kakomon_history": [
+            {
+                "date": "yyyy-mm-dd",
+                "qid": 1,
+                "result": true
+            },
+            {
+                "date": "yyyy-mm-dd",
+                "qid": 2,
+                "result": false
+            }
+        ],
+        "rank_history": [
+            {
+                "date": "yyyy-mm-dd",
+                "new_rating": "3000",
+                "diff": "5"
+            },
+            {
+                "date": "yyyy-mm-dd",
+                "new_rating": "3000",
+                "diff": "-7"
+            }
+        ]
+    }
+]

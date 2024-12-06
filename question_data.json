@@ -1,0 +1,25 @@
+[
+    {
+        "qid": 1,
+        "title":"A. 積雪深差",
+        "url":"https://atcoder.jp/contests/abc001/tasks/abc001_1",
+        "rating":100,
+        "results": [
+            {
+                "uname":"name1",
+                "language":"cpp",
+                "time":30,
+                "bytes":900,
+                "memory":4000,
+                "result":true
+            }, {
+                "uname":"name2",
+                "language":"py",
+                "time":110,
+                "bytes":600,
+                "memory":12000,
+                "result":false
+            }
+        ]
+    }
+]
